@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel = "stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/corazones.png"><h1>AluraGeek</h1>
+    </header>
+
+    <main>
+      <section class="mis-productos">
+         <h2>Mis Productos</h2>
+         <div class="productos-container">
+            <div class="card">
+                <img src="https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2022/10/03/16647982737066.jpg" alt="Producto 1" class="producto">
+                <div class="card-container--info">
+                    <p>Pastamaker</p>
+                    <div class="card-container--value">
+                        <p>$300.000</p>
+                        <img src="./assets/basurero.png" alt="Eliminar Producto">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2022/10/03/16647981955508.jpg" alt="Producto 2" class="producto">
+                <div class="card-container--info">
+                    <p>Horno multifunción</p>
+                    <div class="card-container--value">
+                        <p>$900.000</p>
+                        <img src="./assets/basurero.png" alt="Eliminar Producto">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2022/10/04/16648761661866.jpg" alt="Producto 3" class="producto">
+                <div class="card-container--info">
+                    <p>Coctelera</p>
+                    <div class="card-container--value">
+                        <p>$450.000</p>
+                        <img src="./assets/basurero.png" alt="Eliminar Producto">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2022/10/04/16648763183253.jpg" alt="Producto 4" class="producto">
+                <div class="card-container--info">
+                    <p>Frigorífico</p>
+                    <div class="card-container--value">
+                        <p>$1,825.000</p>
+                        <img src="./assets/basurero.png" alt="Eliminar Producto">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2022/10/04/16649097140201.jpg" alt="Producto 5" class="producto">
+                <div class="card-container--info">
+                    <p>Parrilla y freidora</p>
+                    <div class="card-container--value">
+                        <p>$350.000</p>
+                        <img src="./assets/basurero.png" alt="Eliminar Producto">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2022/10/04/16649098778865.jpg" alt="Producto 6" class="producto">
+                <div class="card-container--info">
+                    <p>Robot cookit</p>
+                    <div class="card-container--value">
+                        <p>$250.000</p>
+                        <img src="./assets/basurero.png" alt="Eliminar Producto">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2022/10/04/16649104087338.jpg" alt="Producto 7" class="producto">
+                <div class="card-container--info">
+                    <p>Horno holandés</p>
+                    <div class="card-container--value">
+                        <p>$420.500</p>
+                        <img src="./assets/basurero.png" alt="Eliminar Producto">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2022/10/05/16649685788083.jpg" alt="Producto 8" class="producto">
+                <div class="card-container--info">
+                    <p>Heladera inteligente</p>
+                    <div class="card-container--value">
+                        <p>$490.000</p>
+                        <img src="./assets/basurero.png" alt="Eliminar Producto">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2022/10/05/16649693641372.jpg" alt="Producto 9" class="producto">
+                <div class="card-container--info">
+                    <p>Cafetera inteligente</p>
+                    <div class="card-container--value">
+                        <p>$950.000</p>
+                        <img src="./assets/basurero.png" alt="Eliminar Producto">
+                    </div>
+                </div>
+            </div>
+         </div>
+      </section>
+
+        <section class="agregar-producto">
+            <h2>Agregar Producto</h2>
+            <form action="#" method="post" class="form">
+                
+                <input type="text" id="nombre" name="nombre" required placeholder="Nombre..." class="input">
+
+                
+                <input type="number" id="precio" name="precio" step="0.01" required placeholder="Precio..." class="input">
+
+                
+                <input type="url" id="imagen" name="imagen" required placeholder="Imagen (URL)..." class="input">
+                
+                <div class="button">
+                    <button class="boton-enviar" type="submit">Enviar</button>
+                    <button class="boton-limpiar" type="reset">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>AluraGeek</p>
+        <p>Desarrollado por Nicolás Sangrá</p>
+        <p>Alura Latam 2024</p>
+    </footer>
+    
+</body>
+    <script src="/JS/eliminar-producto.js"></script>
+    <script src="/JS/formulario.js"></script>
+</html>
+
+
+
